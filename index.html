@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Logo">
+                <span class="logo-text">𝕷𝖆𝖓𝖉𝖎𝖓𝖌 𝕻𝖆𝖌𝖊</span>
+            </a>
+            
+            <ul class="nav-links fam"  >
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero fam">
+        <div class="hero-content">
+            <h1>"Lights Down, Screens Up: Explore a Universe of Online Films!"</h1>
+            <p>"Discover a World of Entertainment – Anytime, Anywhere!"</p>
+            <a href="#signup" class="cta-button">Sign Up Now</a>
+        </div>
+        <img class="mimg" src="mainIMG.jpg" alt="Hero Image">
+    </section>
+    <section class="features fam" id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="4k.png" alt="Feature 1">
+            <h3 class="feat">Feature 1</h3>
+            <p>Provide high-definition (HD) and, if possible, 4K streaming options for a premium viewing experience.</p>
+        </div>
+        <div class="feature">
+            <img src="noads.png" alt="Feature 2">
+            <h3 class="feat">Feature 2</h3>
+            <p>Ad-free experience which will allow users to enjoy uninterrupted, immersive movie viewing with enhanced focus and satisfaction.</p>
+        </div>
+    </section>
+    <section class="pricing fam" id="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-plan">
+            <h3>Basic Plan</h3>
+            <p>Lower video quality streaming(1080p), include advertisements, no download option</p>
+            <span class="price">$5/month</span>
+            <a href="#signup" class="cta-button">Get Started</a>
+        </div>
+        <div class="pricing-plan">
+            <h3>Premium Plan</h3>
+            <p>Higher video quality streaming(4k), ad-free experience, download option available </p>
+            <span class="price">$15/month</span>
+            <a href="#signup" class="cta-button">Get Started</a>
+        </div>
+    </section>
+    <section class="contact fam" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to contact us.</p>
+        <div class="contact-form">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer fam">
+        <p>&copy; 2023 Landing Page. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
